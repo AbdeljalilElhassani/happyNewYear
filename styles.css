@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(180deg, #E463F9 0%,green 50% ,#6b78ee 100%);
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    overflow-x: hidden;
+    height: auto;
+    
+}
+/*!first title*/
+
+.main-title{
+    padding-top:220px;
+    font-size: 35px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: rgb(15, 14, 14);
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.downBtn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: black;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Pushster', cursive;    background-color: black;
+}
+.btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-family: 'Pushster', cursive;    font-size: 30px !important;
+    font-weight: bold;
+    border-radius: 50% !important;
+    margin-left: 46.5%;
+    margin-top: 50px;
+    margin-bottom:200px ;
+}
+.btn > p{
+    font-size: 20px !important;
+}
+.firstMessage{
+    font-family: 'Indie Flower', cursive;
+    width: 90%;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: 0px !important;
+    margin-left: 100px !important;
+    padding-top: 50px;
+    
+}
+
+
+
+.secondMessage{
+    font-family: 'Indie Flower', cursive;
+        width:90%;
+    font-size: 25px;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+
+/*?images design */
+.templateImg{
+    width: 540px;
+    height:400px;
+    margin-right: 50px !important;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.templateImg2{
+    width: 400px;
+    height:400px;
+    margin-right: 50px !important;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.templateImg3{
+    width: 500px;
+    height:360px;
+    margin-right: 50px !important;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.templateImg4{
+    width: 550px;
+    height:350px;
+    margin-right: 50px !important;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.templateImg5{
+    width: 500px;
+    height:350px;
+    margin-right: 50px !important;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+/*!last message*/
+.lastMessage{
+    font-family: 'Indie Flower', cursive;
+        width: 80%;
+    margin: auto;
+    padding-bottom: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: bold;
+
+    text-align: center;
+}
+.btnContainer{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+.musicBtn{
+    background-color: rgb(238, 52, 52);
+    border: none;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    color: white;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    font-family: 'Pushster', cursive;}
